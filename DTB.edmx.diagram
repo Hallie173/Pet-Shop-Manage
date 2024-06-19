@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c94e29c846f344079de3a7943811abe0" Name="Diagram1">
+        <EntityTypeShape EntityType="PBL3_CSDLModel1.DONHANG" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3_CSDLModel1.DONHANGCHITIET" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3_CSDLModel1.KHACHHANG" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3_CSDLModel1.NHACUNGCAP" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3_CSDLModel1.NHANVIEN" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3_CSDLModel1.SANPHAM" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3_CSDLModel1.sysdiagram" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3_CSDLModel1.TAIKHOAN" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="PBL3_CSDLModel1.fk_donhang" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3_CSDLModel1.FK_IDKH_IDKH" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3_CSDLModel1.FK_IDNV_IDNV" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3_CSDLModel1.fk_sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3_CSDLModel1.FK_IDNCC_IDNCC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
